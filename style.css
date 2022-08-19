@@ -1,27 +1,32 @@
-body{
-    background-color: rgb(7, 53, 139);
+/* Elemento de tag <body> */
+body {
+    background-image: linear-gradient(rgb(97, 195, 240), rgb(78, 60, 240), rgba(60, 8, 158, 0.959));
+
 }
 
-a{
+a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration:none;
+    text-decoration: none;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
 }
-header img{
+
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 2px solid black;
 
 }
-.center{
+
+.center {
     text-align: center;
 }
 
@@ -30,7 +35,7 @@ footer img {
     height: 40px;
     border-radius: 50%;
     text-align: center;
-    
+
 }
 
 footer {
@@ -39,24 +44,26 @@ footer {
     text-align: center;
 
 }
- 
+
 footer a {
     margin: 30px;
     text-align: center;
-     
+
 }
 
 footer p {
     margin-top: 5px;
-    
+
 }
 
 h1 {
+    text-align: center;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
+    text-align: center;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -64,4 +71,14 @@ h2 {
 h3 {
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+
+    padding: auto;
+
+}
+
+nav a:hover {
+    color: rgb(233, 235, 161);
 }
